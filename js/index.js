@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.imagenes', {scale:1});

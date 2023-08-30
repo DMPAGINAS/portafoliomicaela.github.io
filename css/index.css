@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+.redes a:hover{
+    color: rgb(189, 186, 186);
+}
+
+@media only screen 
+ and (min-width: 1000px) {
+
+#inicio{
+    background-image: url(../img/Biografia.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover ;
+
+}
+
+  .redes a{
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+  }
+
+ 
+
+  .redes{
+    position: fixed;
+    margin-left: 80em;
+    margin-top: 21em; 
+     background-color: black;
+    width: 1.5em;
+border-radius: 5em;
+padding: 1em;}
+
+.biografia h1{
+    
+    width: 20em;
+    font-size: 3.5em;
+
+    margin-top: 0.5em;
+   padding-left: 1em;
+   font-weight: 900;
+}
+
+#info{
+text-align: center;
+}
+
+#info h2{
+    font-weight: 700;
+    
+   
+}
+
+.imagenes img{
+    width: 20em;
+    padding: 0.5em;
+}
+
+footer{
+    margin-top: 85em;
+   text-align: center;
+}
+
+footer div{
+    display: inline-flex;
+  
+    
+}
+
+footer div p{
+      margin: 0.5em;
+}
+
+footer .marca{
+background-color: gainsboro;
+padding: 0.5em;
+font-size: 0.8em;
+}
+ 
+}
+
+@media only screen and (max-width: 800px) 
+
+{
+    
+    #inicio{
+        background-image: url(../img/UGC\ PHOTOGRAPHY.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover ;
+    
+    }
+    
+      .redes a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+      }
+    
+     
+    
+      .redes{
+        position: fixed;
+        margin-left: 38em;
+        margin-top: 21em; 
+         background-color: black;
+        width: 1.5em;
+    border-radius: 5em;
+    padding: 1em;}
+    
+    .biografia h1{
+        
+        width: 15em;
+        font-size: 2.5em;
+    
+        margin-top: 0.5em;
+       padding-left: 1em;
+       font-weight: 900;
+    }
+    
+    #info{
+    text-align: center;
+    }
+    
+    #info h2{
+        font-weight: 700;
+        
+       
+    }
+    
+    .imagenes img{
+        width: 20em;
+        padding: 0.5em;
+    }
+    
+    footer{
+        margin-top: 156em;
+       text-align: center;
+    }
+    
+    footer div{
+        display: inline-flex;
+      
+        
+    }
+    
+    footer div p{
+          margin: 0.5em;
+    }
+    
+    footer .marca{
+    background-color: gainsboro;
+    padding: 0.5em;
+    font-size: 0.8em;
+    }
+    
+}
+
+@media only screen 
+ and (max-width: 600px){
+    
+    #inicio{
+        background-image: url(../img/UGC\ PHOTOGRAPHY.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover ;
+    
+    }
+    
+      .redes a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+      }
+    
+     
+    
+      .redes{
+        position: fixed;
+        margin-left: 32em;
+        margin-top: 21em; 
+         background-color: black;
+        width: 1.5em;
+    border-radius: 5em;
+    padding: 1em;}
+    
+    .biografia h1{
+        
+        width: 12em;
+        font-size: 2.5em;
+        margin-top: 0.5em;
+       padding-left: 1em;
+       font-weight: 900;
+    }
+    
+    #info{
+    text-align: center;
+
+    }
+    
+    #info h2{
+        font-weight: 700;
+        font-size: 1.5em;
+        
+       
+    }
+    
+    .imagenes img{
+        width: 20em;
+        padding: 0.5em;
+    }
+    
+    footer{
+        margin-top: 340em;
+       text-align: center;
+    }
+    
+    footer div{
+        display: inline-flex;
+      
+        
+    }
+    
+    footer div p{
+          margin: 0.5em;
+          font-size: 0.8em;
+    }
+    
+    footer .marca{
+    background-color: gainsboro;
+    padding: 0.5em;
+    font-size: 0.8em;
+    }
+
+
+ }
+
+ @media only screen 
+ and (max-width: 540px){
+
+    section{
+        
+        height: 55vh;
+    }
+    #inicio{
+        background-image: url(../img/UGC\ PHOTOGRAPHY.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover ;
+    
+    }
+    
+      .redes a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+      }
+    
+     
+    
+      .redes{
+        position: fixed;
+        margin-left: 28em;
+        margin-top: 21em; 
+         background-color: black;
+        width: 1.5em;
+    border-radius: 5em;
+    padding: 1em;}
+    
+    .biografia h1{
+        
+        width: 12em;
+        font-size: 2.5em;
+    
+        margin-top: 0.5em;
+       padding-left: 1em;
+       font-weight: 900;
+    }
+    
+    #info{
+    text-align: center;
+
+    }
+    
+    #info h2{
+        font-weight: 700;
+        font-size: 1em;
+        
+       
+    }
+    
+    .imagenes img{
+        width: 20em;
+        padding: 0.5em;
+    }
+    
+    footer{
+        margin-top: 340em;
+       text-align: center;
+    }
+    
+    footer div{
+        display: inline-flex;
+      
+        
+    }
+    
+    footer div p{
+          margin: 0.5em;
+          font-size: 0.8em;
+    }
+    
+    footer .marca{
+    background-color: gainsboro;
+    padding: 0.5em;
+    font-size: 0.8em;
+    }
+
+ }
+
+
+@media only screen 
+ and (max-width: 500px){
+
+    section{
+        
+        height: 57vh;
+    }
+    #inicio{
+        background-image: url(../img/UGC\ PHOTOGRAPHY.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover ;
+    
+    }
+    
+      .redes a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+      }
+    
+     
+    
+      .redes{
+        position: fixed;
+        margin-left: 26em;
+        margin-top: 21em; 
+         background-color: black;
+        width: 1.5em;
+    border-radius: 5em;
+    padding: 1em;}
+    
+    .biografia h1{
+        
+        width: 11em;
+        font-size: 2em;
+    
+        margin-top: 0.5em;
+       padding-left: 1em;
+       font-weight: 900;
+    }
+    
+    #info{
+    text-align: center;
+
+    }
+    
+    #info h2{
+        font-weight: 700;
+        font-size: 1em;
+        
+       
+    }
+    
+    .imagenes img{
+        width: 20em;
+        padding: 0.5em;
+    }
+    
+    footer{
+        margin-top: 340em;
+       text-align: center;
+    }
+    
+    footer div{
+        display: inline-flex;
+      
+        
+    }
+    
+    footer div p{
+          margin: 0.5em;
+          font-size: 0.8em;
+    }
+    
+    footer .marca{
+    background-color: gainsboro;
+    padding: 0.5em;
+    font-size: 0.8em;
+    }
+
+ }
+
+@media only screen 
+ and (max-width: 420px) {
+
+
+    section{
+        
+        height: 55vh;
+    }
+
+    #inicio{
+        background-image: url(../img/UGC\ PHOTOGRAPHY.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover ;
+    
+    }
+    
+      .redes a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+      }
+    
+     
+    
+      .redes{
+        position: fixed;
+        margin-left: 22em;
+        margin-top: 21em; 
+         background-color: black;
+        width: 1.5em;
+    border-radius: 5em;
+    padding: 1em;}
+    
+    .biografia h1{
+        
+        width: 11em;
+        font-size: 2em;
+    
+        margin-top: 0.5em;
+       padding-left: 1em;
+       font-weight: 900;
+    }
+    
+    #info{
+    text-align: center;
+
+    }
+    
+    #info h2{
+        font-weight: 700;
+        font-size: 1em;
+        
+       
+    }
+    
+    .imagenes img{
+        width: 20em;
+        padding: 0.5em;
+    }
+    
+    footer{
+        margin-top: 340em;
+       text-align: center;
+    }
+    
+    footer div{
+        display: inline-flex;
+      
+        
+    }
+    
+    footer div p{
+          margin: 0.5em;
+          font-size: 0.8em;
+    }
+    
+    footer .marca{
+    background-color: gainsboro;
+    padding: 0.5em;
+    font-size: 0.8em;
+    }
+ }
